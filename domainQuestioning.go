@@ -4,7 +4,7 @@ import (
 	"strings"
 	"fmt"
 	"os/exec"
-	"matrixPrint"
+	"github.com/tolgaozen/matrixPrint"
 )
 
 type DomainQuest struct {
@@ -19,7 +19,8 @@ func (dm DomainQuest) DomainQuestioningCreateAndWriteFolder() {
 
 	for _, row := range dm.domains {
 
-		// splitting head => g++ parts => rest of the command
+		// splitting h
+		// ead => g++ parts => rest of the command
 		parts := strings.Fields(row)
 
 		// [dfsdsf.com]
